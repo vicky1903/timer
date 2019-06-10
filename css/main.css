@@ -46,11 +46,12 @@ h2{
 }
 
 .timer{
-    width: 150px;
+    width: 840px;
     height: 150px;
     border-radius: 15px;
     margin: 15px;
     background-color: #7AAA69;
+    text-align: center;
 }
 /*gagner du temps*/
 #gestes{
