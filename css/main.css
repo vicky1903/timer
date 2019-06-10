@@ -47,9 +47,11 @@ h2{
 
 .timer{
     width: 840px;
-    height: 150px;
+    height: 120px;
     border-radius: 15px;
-    margin: 15px;
+    padding-top: 20px;
+    font-size: 2em;
+    color: #424B54;
     background-color: #7AAA69;
     text-align: center;
 }

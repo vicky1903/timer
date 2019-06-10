@@ -22,7 +22,8 @@ function rebour(){
         mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
         sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
         //affiche le compte a rebours//
-        affiche.innerHTML = "La fin des ressources dans : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
+        
+        affiche.innerHTML =  j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
         window.status = "La fin des ressources dans : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
 
     }
