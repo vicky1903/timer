@@ -33,3 +33,6 @@ function rebour(){
 }
 rebour();
 //fonction pour le clik et incrementation du temps en plus//
+var sommeTime = document.getElementById("total");
+
+var recyclage = 5;
