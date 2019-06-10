@@ -39,8 +39,8 @@ h2{
 /*boites du temps*/
 #timers{
     width: 100%;
-    height: 50%;
-    margin-top: 10px;
+    height: 40%;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -61,19 +61,25 @@ h2{
     margin-top: 40px;
     justify-content: center;
 }
-.geste{
-    width: 100px;
+.button a{
+    width: 120px;
     height: 100px;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    color: #424B54;  
+    
+}
+.button{
+    background-color: #7AAA69;
     border-radius: 10px;
     margin: 15px;
-    background-color: #A9D6AD;
 }
-.geste:hover{
+.button:hover{
     box-shadow: 4px 4px 10px black;
 }
 #total{
     margin-left: 60px;
-    background-color: #7AAA69;
 }
 
 /*pied de page*/

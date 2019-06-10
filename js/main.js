@@ -24,7 +24,7 @@ function rebour(){
         //affiche le compte a rebours//
         
         affiche.innerHTML =  j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
-        window.status = "La fin des ressources dans : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
+        window.status = j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
 
     }
 
@@ -32,3 +32,4 @@ function rebour(){
     
 }
 rebour();
+//fonction pour le clik et incrementation du temps en plus//
